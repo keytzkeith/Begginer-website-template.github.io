@@ -158,11 +158,14 @@ footer{
     font-size: 1rem;
 }
 .sites{
-    width: 100px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
+    margin-bottom: 12px;    
 }
 .sites a{
+    padding: 3px;
+    margin-right: 5px;
     background: #e6e6fa;
     display: flex;
     justify-content: center;
